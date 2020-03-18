@@ -408,6 +408,7 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Practice-19.h" />
     <CLInclude Include="resource.h" />
     <ResourceCompile Include="Practice-19.rc" />
   </ItemGroup>
