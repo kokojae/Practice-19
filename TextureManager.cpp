@@ -13,7 +13,7 @@ LPDIRECT3DTEXTURE9 TextureManager::LoadTexture(std::wstring path)
 	}
 	else
 	{
-		D3DXCreateTextureFromFileEx(			DXUTGetD3D9Device(),
+		D3DXCreateTextureFromFileEx(DXUTGetD3D9Device(),
 			path.c_str(),
 			D3DX_DEFAULT_NONPOW2,
 			D3DX_DEFAULT_NONPOW2,
