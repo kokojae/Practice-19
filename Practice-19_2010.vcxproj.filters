@@ -77,11 +77,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice-19.cpp" />
-    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
-    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="TextureManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
