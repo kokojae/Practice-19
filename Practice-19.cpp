@@ -6,6 +6,7 @@
 #include "DXUT.h"
 #include "resource.h"
 #include "Practice-19.h"
+#include <windowsx.h>
 
 
 //--------------------------------------------------------------------------------------
@@ -88,6 +89,28 @@ void CALLBACK OnD3D9FrameRender( IDirect3DDevice9* pd3dDevice, double fTime, flo
 LRESULT CALLBACK MsgProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam,
                           bool* pbNoFurtherProcessing, void* pUserContext )
 {
+    if (uMsg == WM_LBUTTONDOWN)
+        MouseManager::leftBtn = true;
+    if (uMsg == WM_MBUTTONDOWN)
+        MouseManager::middleBtn = true;
+    if (uMsg == WM_RBUTTONDOWN)
+        MouseManager::rightBtn = true;
+
+    if (uMsg == WM_LBUTTONUP)
+        MouseManager::leftBtn = false;
+    if (uMsg == WM_MBUTTONUP)
+        MouseManager::leftBtn = false;
+    if (uMsg == WM_RBUTTONUP)
+        MouseManager::leftBtn = false;
+
+    if (uMsg == WM_MOUSEMOVE)
+    {
+        MouseManager::pos = {
+            static_cast<float>(GET_X_LPARAM(lParam)) - (SCREEN_WIDTH / 2),
+            static_cast<float>(GET_Y_LPARAM(lParam)) - (SCREEN_WIDTH / 2)
+        };
+    }
+
     return 0;
 }
 

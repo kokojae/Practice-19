@@ -380,7 +380,9 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MouseManager.cpp" />
     <ClCompile Include="TextureManager.cpp" />
+    <ClInclude Include="MouseManager.h" />
     <ClInclude Include="TextureManager.h" />
     <None Include="DXUT\Optional\directx.ico" />
     <ClInclude Include="DXUT\Core\DXUT.h" />
