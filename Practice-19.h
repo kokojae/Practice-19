@@ -5,5 +5,6 @@
 #define WINDOWED false
 
 // Managers
+#include "Camera.h"
 #include "MouseManager.h"
 #include "TextureManager.h"

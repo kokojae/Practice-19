@@ -83,6 +83,9 @@
     <ClCompile Include="MouseManager.cpp">
       <Filter>Managers</Filter>
     </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
@@ -90,6 +93,9 @@
       <Filter>Managers</Filter>
     </ClInclude>
     <ClInclude Include="MouseManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
       <Filter>Managers</Filter>
     </ClInclude>
   </ItemGroup>

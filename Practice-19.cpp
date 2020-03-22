@@ -109,6 +109,7 @@ LRESULT CALLBACK MsgProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam,
             static_cast<float>(GET_X_LPARAM(lParam)) - (SCREEN_WIDTH / 2),
             static_cast<float>(GET_Y_LPARAM(lParam)) - (SCREEN_WIDTH / 2)
         };
+        MouseManager::pos += Camera::pos;
     }
 
     return 0;
