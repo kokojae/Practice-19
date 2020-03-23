@@ -4,7 +4,7 @@
 
 D3DXVECTOR2 Camera::pos = { 0,0 };
 float Camera::degree = 0;
-float Camera::scale = { 0,0 };
+float Camera::scale = 1;
 D3DXVECTOR2 Camera::shake = { 0,0 };
 
 D3DXMATRIX Camera::GetCamera()
