@@ -6,5 +6,8 @@ public:
 	static bool leftBtn;
 	static bool middleBtn;
 	static bool rightBtn;
+	static RECT rc;
+
+	static RECT* GetRect();
 };
 
