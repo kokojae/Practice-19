@@ -15,6 +15,9 @@
     <Filter Include="Managers">
       <UniqueIdentifier>{8707a1bb-1a82-4eb9-933c-08af272a82ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{b09d586c-ffc5-4a24-a933-085bfa784165}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="DXUT\Optional\directx.ico">
@@ -86,6 +89,9 @@
     <ClCompile Include="Camera.cpp">
       <Filter>Managers</Filter>
     </ClCompile>
+    <ClCompile Include="TextureInfo.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
@@ -97,6 +103,9 @@
     </ClInclude>
     <ClInclude Include="Camera.h">
       <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureInfo.h">
+      <Filter>Component</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
