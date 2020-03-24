@@ -92,6 +92,9 @@
     <ClCompile Include="TextureInfo.cpp">
       <Filter>Component</Filter>
     </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
@@ -106,6 +109,9 @@
     </ClInclude>
     <ClInclude Include="TextureInfo.h">
       <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Managers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
