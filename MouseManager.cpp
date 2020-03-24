@@ -6,6 +6,7 @@ D3DXVECTOR2 MouseManager::pos = { 0,0 };
 bool MouseManager::leftBtn = false;
 bool MouseManager::middleBtn = false;
 bool MouseManager::rightBtn = false;
+RECT MouseManager::rc = { 0,0,0,0 };
 
 RECT* MouseManager::GetRect()
 {
