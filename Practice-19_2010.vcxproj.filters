@@ -15,7 +15,7 @@
     <Filter Include="Managers">
       <UniqueIdentifier>{8707a1bb-1a82-4eb9-933c-08af272a82ce}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Component">
+    <Filter Include="Components">
       <UniqueIdentifier>{b09d586c-ffc5-4a24-a933-085bfa784165}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -90,7 +90,7 @@
       <Filter>Managers</Filter>
     </ClCompile>
     <ClCompile Include="TextureInfo.cpp">
-      <Filter>Component</Filter>
+      <Filter>Components</Filter>
     </ClCompile>
     <ClCompile Include="Layer.cpp">
       <Filter>Managers</Filter>
@@ -117,7 +117,7 @@
       <Filter>Managers</Filter>
     </ClInclude>
     <ClInclude Include="TextureInfo.h">
-      <Filter>Component</Filter>
+      <Filter>Components</Filter>
     </ClInclude>
     <ClInclude Include="Layer.h">
       <Filter>Managers</Filter>
