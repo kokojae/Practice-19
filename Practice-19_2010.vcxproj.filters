@@ -104,6 +104,9 @@
     <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
       <Filter>DXUT</Filter>
     </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
@@ -130,6 +133,9 @@
     </ClInclude>
     <ClInclude Include="DXUT\Optional\SDKwavefile.h">
       <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
