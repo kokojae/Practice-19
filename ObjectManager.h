@@ -15,7 +15,6 @@ public:
 	static void Update();
 	static void LateUpdate();
 	static void Render();
-	static void Release();
 	static void Clear();
 
 	static GameObject* ColliderCheck(RECT* objRc, int layer = Layer::DEFAULT);

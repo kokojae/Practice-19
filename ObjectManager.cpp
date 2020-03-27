@@ -19,10 +19,6 @@ void ObjectManager::Render()
 {
 }
 
-void ObjectManager::Release()
-{
-}
-
 void ObjectManager::Clear()
 {
 }

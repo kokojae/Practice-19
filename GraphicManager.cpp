@@ -34,8 +34,8 @@ void GraphicManager::Render()
 
 void GraphicManager::Release()
 {
-	sprite->Release();
 	font->Release();
+	sprite->Release();
 }
 
 void GraphicManager::TextureRender(TextureInfo info, D3DXVECTOR2 position)
@@ -77,5 +77,12 @@ void GraphicManager::TextRender(std::wstring text, D3DXVECTOR2 position, D3DXVEC
 	if (!isUI)
 		mat *= Camera::GetCamMat();
 
+	sprite->SetTransform(&mat);
 
+	font->DrawText(sprite,
+		text.c_str(),
+		-1,
+		NULL,
+		DT_NOCLIP,
+		D3DCOLOR_XRGB(0, 0, 0));
 }

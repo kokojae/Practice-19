@@ -42,8 +42,8 @@ bool CALLBACK ModifyDeviceSettings( DXUTDeviceSettings* pDeviceSettings, void* p
 HRESULT CALLBACK OnD3D9CreateDevice( IDirect3DDevice9* pd3dDevice, const D3DSURFACE_DESC* pBackBufferSurfaceDesc,
                                      void* pUserContext )
 {
+    GraphicManager::Init();
     SoundManager::Init();
-
     return S_OK;
 }
 
@@ -64,6 +64,8 @@ HRESULT CALLBACK OnD3D9ResetDevice( IDirect3DDevice9* pd3dDevice, const D3DSURFA
 //--------------------------------------------------------------------------------------
 void CALLBACK OnFrameMove( double fTime, float fElapsedTime, void* pUserContext )
 {
+    ObjectManager::Update();
+    ObjectManager::LateUpdate();
 }
 
 
@@ -80,6 +82,7 @@ void CALLBACK OnD3D9FrameRender( IDirect3DDevice9* pd3dDevice, double fTime, flo
     // Render the scene
     if( SUCCEEDED( pd3dDevice->BeginScene() ) )
     {
+        GraphicManager::Render();
         V( pd3dDevice->EndScene() );
     }
 }
@@ -132,6 +135,7 @@ void CALLBACK OnD3D9LostDevice( void* pUserContext )
 void CALLBACK OnD3D9DestroyDevice( void* pUserContext )
 {
     TextureManager::ReleaseTextures();
+    GraphicManager::Release();
 }
 
 
