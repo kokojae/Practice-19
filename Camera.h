@@ -7,6 +7,6 @@ public:
 	static float scale;
 	static D3DXVECTOR2 shake;
 
-	static D3DXMATRIX GetCamera();
+	static D3DXMATRIX GetCamMat();
 };
 
