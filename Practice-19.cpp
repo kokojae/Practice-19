@@ -44,6 +44,7 @@ HRESULT CALLBACK OnD3D9CreateDevice( IDirect3DDevice9* pd3dDevice, const D3DSURF
 {
     GraphicManager::Init();
     SoundManager::Init();
+    SceneManager::LoadScene(SceneManager::Scene::Intro);
     return S_OK;
 }
 
@@ -134,6 +135,7 @@ void CALLBACK OnD3D9LostDevice( void* pUserContext )
 //--------------------------------------------------------------------------------------
 void CALLBACK OnD3D9DestroyDevice( void* pUserContext )
 {
+    SoundManager::EndAllSFX();
     TextureManager::ReleaseTextures();
     GraphicManager::Release();
 }

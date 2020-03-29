@@ -12,6 +12,8 @@
 // GameObject
 // Base
 #include "GameObject.h"
+// Objects
+#include "Text.h"
 
 // Managers
 #include "Camera.h"
@@ -19,5 +21,6 @@
 #include "Layer.h"
 #include "MouseManager.h"
 #include "ObjectManager.h"
+#include "SceneManager.h"
 #include "SoundManager.h"
 #include "TextureManager.h"
