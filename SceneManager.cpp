@@ -4,7 +4,7 @@
 
 SceneManager::Scene SceneManager::current_scene = SceneManager::Scene();
 
-void SceneManager::LoatScene(Scene scene)
+void SceneManager::LoadScene(Scene scene)
 {
 	current_scene = scene;
 

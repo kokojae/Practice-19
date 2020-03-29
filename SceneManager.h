@@ -6,6 +6,6 @@ public:
 
 	static Scene current_scene;
 
-	static void LoatScene(Scene scene);
+	static void LoadScene(Scene scene);
 };
 
