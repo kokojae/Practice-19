@@ -122,7 +122,12 @@
     <ClCompile Include="GameObject.cpp">
       <Filter>GameObject\Base</Filter>
     </ClCompile>
-    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Text.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
@@ -162,7 +167,12 @@
     <ClInclude Include="GameObject.h">
       <Filter>GameObject\Base</Filter>
     </ClInclude>
-    <ClInclude Include="Text.h" />
+    <ClInclude Include="Text.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
