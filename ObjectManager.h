@@ -10,7 +10,6 @@ public:
 
 	template <typename T>
 	static T* Instantiate(D3DXVECTOR2 pos = { 0,0 });
-	void Sort(const GameObject* a, const GameObject* b);
 
 	static void Update();
 	static void LateUpdate();
@@ -19,6 +18,8 @@ public:
 
 	static GameObject* ColliderCheck(RECT* objRc, int layer = Layer::DEFAULT);
 };
+
+bool Sort(const GameObject* a, const GameObject* b);
 
 template<typename T>
 inline T* ObjectManager::Instantiate(D3DXVECTOR2 pos)
