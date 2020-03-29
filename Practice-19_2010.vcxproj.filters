@@ -122,6 +122,7 @@
     <ClCompile Include="GameObject.cpp">
       <Filter>GameObject\Base</Filter>
     </ClCompile>
+    <ClCompile Include="Text.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
@@ -161,6 +162,7 @@
     <ClInclude Include="GameObject.h">
       <Filter>GameObject\Base</Filter>
     </ClInclude>
+    <ClInclude Include="Text.h" />
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
