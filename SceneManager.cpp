@@ -33,4 +33,6 @@ void SceneManager::LoadScene(Scene scene)
 	case SceneManager::Scene::Stage2:
 		break;
 	}
+
+	GameManager::player = ObjectManager::SearchObject(L"player");
 }

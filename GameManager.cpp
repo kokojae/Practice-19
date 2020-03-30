@@ -11,14 +11,26 @@ void GameManager::Update()
 	if (GetAsyncKeyState(VK_F1))
 	{
 		// 무적
+		if (player != nullptr)
+		{
+
+		}
 	}
 	if (GetAsyncKeyState(VK_F2))
 	{
 		// 업그레이드
+		if (player != nullptr)
+		{
+
+		}
 	}
 	if (GetAsyncKeyState(VK_F3))
 	{
 		// 다운그레이드
+		if (player != nullptr)
+		{
+
+		}
 	}
 	if (GetAsyncKeyState(VK_F4))
 	{
