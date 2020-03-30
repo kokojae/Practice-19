@@ -3,7 +3,7 @@ class GameManager
 {
 public:
 
-	void init();
-	void Update();
+	static void init();
+	static void Update();
 };
 
