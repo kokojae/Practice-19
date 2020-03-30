@@ -14,6 +14,7 @@ public:
 	bool destroy = false;
 	int z = 0;
 	RECT* rc = new RECT();
+	std::wstring name = L"";
 
 	virtual void Init();
 	virtual void Update();

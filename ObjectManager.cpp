@@ -70,6 +70,16 @@ GameObject* ObjectManager::ColliderCheck(RECT* objRc, int layer)
 	return nullptr;
 }
 
+GameObject* ObjectManager::SearchObject(std::wstring objName)
+{
+	for (GameObject* inst : obj_list)
+	{
+		if (inst->name == objName)
+			return inst;
+	}
+	return nullptr;
+}
+
 bool Sort(const GameObject* a, const GameObject* b)
 {
 	return a->z < b->z;
