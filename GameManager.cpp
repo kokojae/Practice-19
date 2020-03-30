@@ -22,14 +22,17 @@ void GameManager::Update()
 	}
 	if (GetAsyncKeyState(VK_F4))
 	{
+		// 메인으로
 		SceneManager::LoadScene(SceneManager::Scene::Main);
 	}
 	if (GetAsyncKeyState(VK_F5))
 	{
+		// 스테이지 1으로
 		SceneManager::LoadScene(SceneManager::Scene::Stage1);
 	}
 	if (GetAsyncKeyState(VK_F6))
 	{
+		// 스테이지 2로
 		SceneManager::LoadScene(SceneManager::Scene::Stage2);
 	}
 	
