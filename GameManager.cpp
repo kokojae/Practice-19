@@ -2,7 +2,7 @@
 #include "GameManager.h"
 #include "Practice-19.h"
 
-void GameManager::init()
+void GameManager::Init()
 {
 }
 

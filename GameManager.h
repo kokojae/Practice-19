@@ -4,7 +4,7 @@ class GameManager
 public:
 	static GameObject* player;
 
-	static void init();
+	static void Init();
 	static void Update();
 };
 
