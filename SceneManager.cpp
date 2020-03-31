@@ -19,6 +19,7 @@ void SceneManager::LoadScene(Scene scene)
 	switch (scene)
 	{
 	case SceneManager::Scene::Intro:
+		ObjectManager::Instantiate<Player>();
 		break;
 	case SceneManager::Scene::Main:
 		break;

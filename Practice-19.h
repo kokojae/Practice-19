@@ -12,6 +12,8 @@
 // GameObject
 // Base
 #include "GameObject.h"
+// Character
+#include "Player.h"
 // Objects
 #include "Text.h"
 

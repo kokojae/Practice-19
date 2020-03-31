@@ -24,6 +24,9 @@
     <Filter Include="GameObject\Base">
       <UniqueIdentifier>{ca6ae113-97b0-48bb-aecf-97adc5c947c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameObject\Character">
+      <UniqueIdentifier>{d49b7589-c8f8-4a5c-b60f-b547e6f0ac0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="DXUT\Optional\directx.ico">
@@ -131,6 +134,9 @@
     <ClCompile Include="GameManager.cpp">
       <Filter>Managers</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject\Character</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
@@ -178,6 +184,9 @@
     </ClInclude>
     <ClInclude Include="GameManager.h">
       <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject\Character</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
