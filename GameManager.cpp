@@ -2,6 +2,8 @@
 #include "GameManager.h"
 #include "Practice-19.h"
 
+GameObject* GameManager::player = nullptr;
+
 void GameManager::Init()
 {
 }
