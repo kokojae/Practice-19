@@ -44,7 +44,7 @@ HRESULT CALLBACK OnD3D9CreateDevice( IDirect3DDevice9* pd3dDevice, const D3DSURF
 {
     GraphicManager::Init();
     SoundManager::Init();
-    SceneManager::LoadScene(SceneManager::Scene::Intro);
+    GameManager::Init();
     return S_OK;
 }
 

@@ -6,6 +6,7 @@ GameObject* GameManager::player = nullptr;
 
 void GameManager::Init()
 {
+	SceneManager::LoadScene(SceneManager::Scene::Intro);
 }
 
 void GameManager::Update()
