@@ -11,7 +11,6 @@ void SceneManager::LoadScene(Scene scene)
 	Camera::pos = { 0,0 };
 	Camera::degree = 0;
 	Camera::scale = 1;
-	Camera::shake = { 0,0 };
 
 	ObjectManager::Clear();
 	SoundManager::EndAllSFX();
