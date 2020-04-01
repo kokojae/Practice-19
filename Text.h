@@ -12,6 +12,6 @@ public:
 
 	void Render() override;
 
-	void SetText(std::wstring a_text, D3DXVECTOR2 a_scale, bool a_isUI = false);
+	void SetText(std::wstring a_text, D3DXVECTOR2 a_scale = { 1,1 }, bool a_isUI = false);
 };
 
