@@ -25,6 +25,21 @@ void GameObject::Release()
 		delete rc;
 }
 
+void GameObject::Gravity()
+{
+	force.y += 0.5;
+
+	if (PlaceMeeting({ 0,force.y }, Layer::BLOCK) != nullptr)
+	{
+		force.y = 0;
+	}
+}
+
+void GameObject::AddForce()
+{
+	pos += force;
+}
+
 void GameObject::DrawSelf()
 {
 	GraphicManager::TextureRender(info, pos);
