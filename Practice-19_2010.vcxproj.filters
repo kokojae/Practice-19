@@ -137,6 +137,7 @@
     <ClCompile Include="Player.cpp">
       <Filter>GameObject\Character</Filter>
     </ClCompile>
+    <ClCompile Include="BK.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
@@ -188,6 +189,7 @@
     <ClInclude Include="Player.h">
       <Filter>GameObject\Character</Filter>
     </ClInclude>
+    <ClInclude Include="BK.h" />
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
