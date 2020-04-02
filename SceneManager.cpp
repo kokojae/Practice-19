@@ -18,19 +18,26 @@ void SceneManager::LoadScene(Scene scene)
 	switch (scene)
 	{
 	case SceneManager::Scene::Intro:
-		ObjectManager::Instantiate<Player>();
+		ObjectManager::Instantiate<BK>();
 		break;
 	case SceneManager::Scene::Main:
+		ObjectManager::Instantiate<BK>();
+		ObjectManager::Instantiate<Player>();
 		break;
 	case SceneManager::Scene::HowTo:
+		ObjectManager::Instantiate<BK>();
 		break;
 	case SceneManager::Scene::Rank:
+		ObjectManager::Instantiate<BK>();
 		break;
 	case SceneManager::Scene::Credit:
+		ObjectManager::Instantiate<BK>();
 		break;
 	case SceneManager::Scene::Stage1:
+		ObjectManager::Instantiate<BK>();
 		break;
 	case SceneManager::Scene::Stage2:
+		ObjectManager::Instantiate<BK>();
 		break;
 	}
 

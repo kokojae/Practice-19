@@ -14,8 +14,6 @@ void Player::Init()
 	name = L"player";
 
 	cam_pos = pos;
-
-	ObjectManager::Instantiate<Text>(pos)->SetText(L"0");
 }
 
 void Player::Update()
