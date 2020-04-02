@@ -39,8 +39,8 @@ void Player::CameraFollow()
 	cam_pos += (pos - cam_pos) / 30;
 
 	Camera::pos = cam_pos + D3DXVECTOR2(
-		rand() % static_cast<int>(Camera::shake.x - Camera::shake.x / 2),
-		rand() % static_cast<int>(Camera::shake.y - Camera::shake.y / 2)
+		rand() % static_cast<int>(Camera::shake.x) - static_cast<int>(Camera::shake.x / 2),
+		rand() % static_cast<int>(Camera::shake.y) - static_cast<int>(Camera::shake.y / 2)
 	);
 
 	Camera::scale += (1 - Camera::scale) / 10;
