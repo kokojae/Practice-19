@@ -380,7 +380,6 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BK.cpp" />
     <ClCompile Include="BoxCollider.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="DXUT\Optional\SDKsound.cpp" />
@@ -398,7 +397,6 @@
     <ClCompile Include="Text.cpp" />
     <ClCompile Include="TextureInfo.cpp" />
     <ClCompile Include="TextureManager.cpp" />
-    <ClInclude Include="BK.h" />
     <ClInclude Include="BoxCollider.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="DXUT\Optional\SDKsound.h" />

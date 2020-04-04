@@ -137,12 +137,15 @@
     <ClCompile Include="Player.cpp">
       <Filter>GameObject\Character</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="BK.cpp">
       <Filter>GameObject</Filter>
     </ClCompile>
     <ClCompile Include="PlaterPosition.cpp">
       <Filter>GameObject</Filter>
     </ClCompile>
+=======
+>>>>>>> parent of 1d6f1fc... 임시 객체 추가
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice-19.h" />
@@ -194,12 +197,15 @@
     <ClInclude Include="Player.h">
       <Filter>GameObject\Character</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="BK.h">
       <Filter>GameObject</Filter>
     </ClInclude>
     <ClInclude Include="PlaterPosition.h">
       <Filter>GameObject</Filter>
     </ClInclude>
+=======
+>>>>>>> parent of 1d6f1fc... 임시 객체 추가
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">

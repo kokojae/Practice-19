@@ -16,7 +16,6 @@
 #include "Player.h"
 // Objects
 #include "Text.h"
-#include "BK.h";
 
 // Managers
 #include "Camera.h"
